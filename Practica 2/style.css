@@ -1,6 +1,8 @@
 body {
     font-size: 13px;
     font-family: "Open Sans";
+    margin: 0 auto;
+    width: 1000px;
 }
 
 h2 {
@@ -11,14 +13,11 @@ h3 {
     font-size: 1.2em;
 }
 
-#cuerpo {
-    margin: 0 auto;
-    width: 1000px;
-}
-
 #header {
     width: 100%;
     height: 140px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #socialmedia {
@@ -63,47 +62,62 @@ h3 {
     width: 70%;
 }
 
-.noticia {
-    max-width: 320px;
-    float: left;
-    margin: 5px;
+
+
+
+
+
+#news {
+    display: flex;
+    margin-top: 5px;
 }
 
-.noticia img {
-    max-width: 320px;
+#leftColumn{
+    width: 70%;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+#leftColumn article{
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
-.noticia p {
+#leftColumn article img {
+    max-width: 320px;
+}
+#leftColumn article p {
     font-size: 1.2em;
     font-family: "Times New Roman";
 }
 
-#news {
+#rightColumn{
     width: 30%;
-    float: right;
-    /*margin-top: 169px;*/
-    /*margin-top: 50px;*/
-
-    /*height: 1500px;*/
+    box-sizing: border-box;
 }
 
-.noticia{
-    /*margin-top: 50px;*/
-}
+
 
 #cajas {
     min-height: 300px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .caja {
     float: left;
-    width: 30%;
+    width: 33.33%;
     height: 300px;
     border: 1px dashed white;
     box-sizing: border-box;
     background-color: #333333;
     color: white;
+}
+
+.caja img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .caja p, .caja h3 {
@@ -113,8 +127,4 @@ ul{
     list-style-type: none;
     margin-top: 40px;
     padding-left: 15px;
-}
-
-ul li{
-    margin-top: 15px;
 }
