@@ -151,6 +151,11 @@ footer .box ul li a {
         display: none;
     }
 
+    footer .box img{
+        width: 100%;
+    }
+
+
     #leftColumn article {
         width: 100%;
         max-width: 100%;
@@ -200,6 +205,10 @@ footer .box ul li a {
 
     footer .box {
         width: 50%;
+    }
+
+    footer .box img{
+        width: 100%;
     }
 
     footer .box:nth-child(even) {
