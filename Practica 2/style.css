@@ -52,7 +52,7 @@ h3 {
 }
 
 #menu li a:hover {
-    background-color: #111;
+    background-color: #397881;
 }
 
 /*menu final*/
@@ -109,7 +109,7 @@ footer {
 
 footer .box {
     width: 33.33%;
-    background-color: #2e2e2e;
+    background-color: #333333;
     color: white;
     border: 1px dashed white;
     padding-bottom: 30px;
