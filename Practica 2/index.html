@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Web Design School</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
           integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -10,7 +11,8 @@
 </head>
 <body>
     <div id="header">
-        <img src="images/logo.png">
+        <img id="logo" src="images/logo.png">
+        <i id="minMenu" class="fas fa-bars"></i>
         <div id="socialmedia">es/en/ca
             <i class="fab fa-twitter"></i>
             <i class="fab fa-instagram"></i>
@@ -39,21 +41,21 @@
                 </div>
             </article>
             <article>
-                <img src="images/sofitel.jpg">
+                <img src="images/speech.jpg">
                 <h3>Titulo 1</h3>
 
                 <div class="texto"><p>Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... </p>
                 </div>
             </article>
             <article>
-                <img src="images/sofitel.jpg">
+                <img src="images/outdoor.jpg">
                 <h3>Titulo 1</h3>
 
                 <div class="texto"><p>Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... </p>
                 </div>
             </article>
             <article>
-                <img src="images/sofitel.jpg">
+                <img src="images/wedding.jpg">
                 <h3>Titulo 1</h3>
 
                 <div class="texto"><p>Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... </p>
@@ -62,6 +64,7 @@
 
         </section>
         <section id="rightColumn">
+            <h2>News</h2>
             <article class="new">
                 <h2>News 1</h2>
                 <p>lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem
@@ -89,27 +92,27 @@
         </section>
     </main>
 
-
-<div id="cajas">
-    <div class="caja">
-        <img src="images/logo.png">
-        <h3>Web design School</h3>
-        <p>Florida Bay +55 555 000000
-            info@webdesignschool.eu
-        </p>
-    </div>
-    <div class="caja"></div>
-    <div class="caja">
-        <ul>
-            <li><img src="images/fletxaMenuBlanca.png"> OUR PURPOSE</li>
-            <li><img src="images/fletxaMenuBlanca.png"> THE SCHOOL</li>
-            <li><img src="images/fletxaMenuBlanca.png"> ESTUDIOS</li>
-            <li><img src="images/fletxaMenuBlanca.png"> INTERNACIONAL</li>
-            <li><img src="images/fletxaMenuBlanca.png"> CONTACT</li>
-        </ul>
-
-    </div>
-</div>
+    <footer>
+        <div class="box">
+            <img src="images/logo.png" alt="logo">
+            <div class="p-2">
+                <h3> Web design Scholl</h3>
+                <span> Florida Bay +55 555 000000</span> <br>
+                <span> info@webdesignschool.eu</span>
+            </div>
+        </div>
+        <div class="box"></div>
+        <div class="box">
+            <ul>
+                <li><a href="#">OUR PURPOSE</a></li>
+                <li><a href="#">THE SCHOOL</a></li>
+                <li><a href="#">ESTUDIOS</a></li>
+                <li><a href="#">INTERNATIONAL</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 </html>
+
