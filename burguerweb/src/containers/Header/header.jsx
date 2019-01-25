@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
+
 
 class HeaderHOC extends Component {
     render() { 
@@ -9,19 +11,19 @@ class HeaderHOC extends Component {
             <a href="index.html"><img  src="images/waitress.png" width="332" height="205" alt="" title=""/></a>
             <ul className="navigation">
                 <li>
-                    <a className="active" href="index.html">Home</a>
+                    <Link to="/home">Home</Link>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
                     <a href="burger.html">Menu</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                    <a href="blog.html">Blog</a>
+                    <Link to="/blog">Blog</Link>
                 </li>
             </ul>
         </div>
