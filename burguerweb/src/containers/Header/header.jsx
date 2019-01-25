@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class HeaderHOC extends Component {
-    state = {  }
     render() { 
         return ( 
         <div id="header">
