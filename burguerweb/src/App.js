@@ -15,12 +15,12 @@ class App extends Component {
     return (
       <div className="App">
         <HeaderHOC />
-        <Route exact path="/" component={HomeHOC} />
-        <Route exact path="/home" component={HomeHOC} />
-        <Route exact path="/about" component={AboutHOC} />
-        <Route exact path="/menu" component={AboutHOC} />
-        <Route exact path="/contact" component={ContactHOC} />
-        <Route exact path="/blog" component={BlogHOC} />
+          <Route exact path="/" component={HomeHOC} />
+          <Route exact path="/home" component={HomeHOC} />
+          <Route exact path="/about" component={AboutHOC} />
+          <Route exact path="/menu" component={AboutHOC} />
+          <Route exact path="/contact" component={ContactHOC} />
+          <Route exact path="/blog" component={BlogHOC} />
         <FooterHOC />
       </div>
     );
