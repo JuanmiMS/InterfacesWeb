@@ -4,7 +4,6 @@ class HomeHOC extends Component {
 
     render() { 
 		const pStyle = {
-			fontSize: '15px',
 			textAlign: 'center',
 			width :'960px',
 			overflow : 'hidden',
